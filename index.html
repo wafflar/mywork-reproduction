@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,23 +12,135 @@
 </head>
 
 <body>
-<header>
-  <div class="container">
-    <div class="header-menu">
-      <a href="#"><h1>My Work</h1></a>
-      <nav>
-        <ul>
-          <a href="#"><li>About</li></a>
-          <a href=""><li>Works</li></a>
-          <a href=""><li>News</li></a>
-          <a href=""><li>Contact</li></a>
-          <li><a href="#"><img src="img/instagram.svg" alt="インスタグラムのアイコン" width="20";></a></li>
-        </ul>
-      </nav>
+  <!-- header -->
+  <header>
+    <div class="container">
+      <div class="header-menu">
+        <a href="#">
+          <h1>My Work</h1>
+        </a>
+        <nav>
+          <ul>
+            <a href="#about">
+              <li>About</li>
+            </a>
+            <a href="#works">
+              <li>Works</li>
+            </a>
+            <a href="#news">
+              <li>News</li>
+            </a>
+            <a href="#contact">
+              <li>Contact</li>
+            </a>
+            <li><a href="https://www.instagram.com/" target="_blank"><img src="img/instagram.svg" alt="インスタグラムのアイコン"
+                  width="20" ;></a></li>
+          </ul>
+        </nav>
+      </div>
     </div>
-  </div>
-</header>  
-  
+  </header>
+
+  <!-- main -->
+  <main>
+    <!-- top-image -->
+      <img class="top-image" src="img/main.jpg" alt="メイン画像" height="420" width="100%">
+    
+    <!-- about -->
+    <div class="container container-about">
+      <h2 id="about">About</h2>
+      <ul class="about-list">
+        <li>Xxxxx Ashley</li>
+        <li>2th Floor xxxxx Building x-x-x Nishiazabu, Minato-ku, Tokyo 106-0031 Japan</li>
+        <li>tel: 000-0000-0000</li>
+        <li>url: www.xxxxxx.jp</li>
+        <li>mail: xxx@xxxxxx.jp</li>
+        <p>プロフィールテキストテキストテキストテキストテキストテキストテキストテキストテキストスト テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+          テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+      </ul>
+    </div>
+
+    <!-- works -->
+    <div class="container">
+      <h2 id="works">Works</h2>
+      <div class="work-list">
+        <ul class="images">
+          <li><img src="img/work1.jpg" alt="ワーク画像" width="260" height="180"></li>
+          <li><img src="img/work2.jpg" alt="ワーク画像" width="260" height="180"></li>
+          <li><img src="img/work3.jpg" alt="ワーク画像" width="260" height="180"></li>
+          <li><img src="img/work4.jpg" alt="ワーク画像" width="260" height="180"></li>
+          <li><img src="img/work5.jpg" alt="ワーク画像" width="260" height="180"></li>
+          <li><img src="img/work6.jpg" alt="ワーク画像" width="260" height="180"></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- news -->
+    <div class="container">
+      <h2 id="news">News</h2>
+      <div class="news-table">
+        <table>
+          <tr>
+            <th>2020.XX.XX</th>
+            <td>デザイン雑誌「ＸＸＸＸＸＸ Vol.11』に掲載していただきました。</td>
+          </tr>
+          <tr>
+            <th>2020.XX.XX</th>
+            <td>ＸＸ月ＸＸ日から写真集「ＸＸＸＸＸＸＸ」の販売を開始します。</td>
+          </tr>
+          <tr>
+            <th>2019.XX.XX</th>
+            <td>【イベント開催のお知らせ】テキストテキストテキストテキストテキストテキストテキスト
+            </td>
+          </tr>
+          <tr>
+            <th>2019.XX.XX</th>
+            <td>デザイン雑誌「ＸＸＸＸＸＸ Vol.10』に掲載していただきました。</td>
+          </tr>
+          <tr>
+            <th>2019.XX.XX</th>
+            <td>【個展開催のお知らせ】テキストテキストテキストテキストテキストテキストテキスト</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+
+    <!-- contact -->
+    <div class="container">
+      <h2 id="contact">Contact</h2>
+      <table class="contact-table">
+        <tr>
+          <th>NAME</th>
+          <td>
+            <input type="text">
+          </td>
+        </tr>
+        <tr>
+          <th>E-mail</th>
+          <td>
+            <input type="text">
+          </td>
+        </tr>
+        <tr>
+          <th>MESSAGE</th>
+          <td>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+          </td>
+        </tr>
+      </table>
+      <div class="button-area">
+        <button>送信</button>
+      </div>
+    </div>
+  </main>
+
+  <!-- footer -->
+  <footer>
+    <div class="container">
+      <span>© 2020 My Work</span>
+    </div>
+  </footer>
+
 </body>
 
 </html>
