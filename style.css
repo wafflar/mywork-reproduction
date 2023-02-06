@@ -15,6 +15,7 @@
 
 /* body */
 
+
 body {
   font-family:”ヒラギノ角ゴ Pro W3″,”ＭＳ Ｐゴシック”,sans-serif;
 }
@@ -27,7 +28,6 @@ body {
 
 .header-menu {
   display: flex;
-  /* background: pink; */
   align-items: center;
   margin: 112px 0 0;
   padding: 0;
@@ -52,14 +52,12 @@ nav {
 
 header ul {
   display: flex;
-  /* pointer-events: none; */
 }
 
 .header-menu li{
   margin-left: 30px;
   font-size: 14px;
 }
-
 
 /* main */
 .top-image {
@@ -93,11 +91,26 @@ main p {
   margin-bottom: 60px;
 }
 
-.images {
+.work-list {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  margin: 0 20px;
+  gap: 10px;
+  max-width: 960px;
 }
+
+.box-child {
+  width: calc((100% - 10px - 10px) / 3);
+  height: auto;
+}
+
+.box-img img{
+  display: block;
+  width: 100%;
+  height: 100%; 
+}
+
 
 /* news */
 .news-table {
@@ -170,10 +183,16 @@ button {
   background-color: #24292E;
   color: white;
   width: 200px;
-  line-height: 2.6;
+  line-height: 2.4;
   display: inline-block;
+  font-size: 14px;
 }
 
+button:hover {
+  background: white;
+  color:#24292E;
+  border:1px solid #24292E;
+}
 
 /* footer */
 footer {
